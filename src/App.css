@@ -1,0 +1,25 @@
+.light-theme {
+  --first-color: #010136;
+  --second-color: #0775a8;
+  --third-color: #000;
+  --fourth-color: #fff;
+  --background: #e0e0e0;
+}
+.dark-theme {
+  --first-color: #6e0266;
+  --second-color: #7a0441;
+  --third-color: #fff;
+  --fourth-color: #000;
+  --background: #696969;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--background);
+  transition: 0.3s;
+  font-family: 'Montserrat', sans-serif;
+}
