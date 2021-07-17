@@ -20,6 +20,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   background: var(--background);
-  transition: 0.3s;
+  transition: 0.4s;
   font-family: 'Montserrat', sans-serif;
 }
