@@ -146,6 +146,7 @@ const Wrapper = styled.form`
     outline: none;
     color: var(--third-color);
     margin: 1rem 0 0 0;
+    cursor: pointer;
   }
   @media screen and (max-width: 768px) {
     width: 90vw;
